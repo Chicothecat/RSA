@@ -15,7 +15,7 @@ chọn ciphertext và gửi cho hệ thống giải mã, rồi phân tích kết
 - Giải mã ciphertext mục tiêu `c*` mà không cần biết `d`
 - Hoặc tìm ra plaintext `m*`
 
-### Quy trình tấn công RSA (RSA-CAA)
+### Quy trình tấn công RSA 
 
 **Input:** 
 - Public key `(n, e)`
