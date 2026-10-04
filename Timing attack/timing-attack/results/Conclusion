@@ -1,0 +1,44 @@
+## KẾT LUẬN
+
+### Kết quả đạt được
+
+- Cài đặt thành công 2 hàm so sánh: unsafe và safe
+- Đo được thời gian thực thi của từng hàm theo số ký tự đúng prefix
+- Hàm unsafe có thời gian tăng dần theo prefix, hàm safe không đổi
+- Ghi kết quả ra file results/timing_result.csv
+- Vẽ biểu đồ results/timing_chart.png
+
+### Bảng kết quả
+
+| Prefix đúng | time_unsafe (ns) | time_safe (ns) |
+|-------------|------------------|----------------|
+| 0 | 9,966 | 54,228 |
+| 1 | 13,287 | 66,539 |
+| 2 | 29,623 | 80,447 |
+| 3 | 31,240 | 56,755 |
+| 4 | 37,308 | 52,164 |
+| 5 | 35,324 | 50,527 |
+| 6 | 72,877 | 72,135 |
+| 7 | 71,131 | 102,991 |
+| 8 | 84,253 | 64,828 |
+| 9 | 124,866 | 120,730 |
+
+### Nhận xét
+
+a) Hàm unsafe:
+- Thời gian tăng gần tuyến tính theo số ký tự đúng prefix
+- Prefix = 0: 9,966 ns
+- Prefix = 9: 124,866 ns
+- Chênh lệch khoảng 12 lần
+- Nguyên nhân: hàm thoát sớm khi gặp ký tự sai, nên số vòng lặp
+  tỉ lệ với số ký tự đúng
+
+b) Hàm safe:
+- Thời gian dao động không theo quy luật
+- Không phụ thuộc vào prefix
+- Nguyên nhân: hàm luôn chạy hết vòng lặp bất kể input
+
+c) Hệ quả:
+- Hàm unsafe rò rỉ thông tin qua thời gian
+- Attacker có thể đo thời gian để suy ra từng ký tự của secret
+- Hàm safe không rò rỉ, thời gian không mang thông tin
