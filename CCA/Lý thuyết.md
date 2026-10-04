@@ -2,7 +2,7 @@
 
 ### Nguyên lý
 
-**CCA** là tấn công trong đó attacker chủ động
+CCA là tấn công trong đó attacker chủ động
 chọn ciphertext và gửi cho hệ thống giải mã, rồi phân tích kết quả
 để tìm ra plaintext hoặc private key.
 
