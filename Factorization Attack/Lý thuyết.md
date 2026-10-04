@@ -2,18 +2,18 @@
 
 <img width="122" height="692" alt="FAT" src="https://github.com/user-attachments/assets/72e698aa-7f8b-44cf-a29d-c39df0f08bd9" />
 
-## III. FACTORIZATION ATTACK TRÊN RSA
+## FACTORIZATION ATTACK TRÊN RSA
 
-### 3.1. Nguyên lý
+### Nguyên lý
 
 RSA bảo mật dựa vào **bài toán phân tích thừa số nguyên tố**:
 
-- **Chiều xuôi (dễ):** Có `p, q` → tính `n = p × q`
-- **Chiều ngược (khó):** Có `n` → tìm `p, q`
+- **Chiều xuôi:** Có `p, q` → tính `n = p × q`
+- **Chiều ngược:** Có `n` → tìm `p, q`
 
 → Nếu tìm được `p, q` từ `n`, RSA bị phá hoàn toàn.
 
-### 3.2. Quy trình tấn công
+### Quy trình tấn công
 
 **Input:** Public key `(n, e)` và ciphertext `c`
 
@@ -27,11 +27,7 @@ RSA bảo mật dựa vào **bài toán phân tích thừa số nguyên tố**:
    - Giải mã: `m = c^d mod n`
    - Giả mạo chữ ký: `σ = H(m)^d mod n`
 
-### 3.3. Cài đặt
-
-**Môi trường:**
-- Ubuntu, g++ 13.3.0
-- Thư viện GMP (xử lý số lớn)
+### Cài đặt
 
 **Cấu trúc code:**
 
