@@ -30,13 +30,14 @@ chọn ciphertext và gửi cho hệ thống giải mã, rồi phân tích kết
 - Decryption oracle `O(c) = c^d mod n`
 
 **Procedure:**
-BƯỚC 1: Blinding
+
+Bước 1: Blinding
 Chọn s ngẫu nhiên
 Tính c' = c* × s^e mod n
 
-BƯỚC 2: Gửi oracle
+Bước 2: Gửi oracle
 m' = O(c') = (c')^d mod n
 = m* × s mod n
 
-BƯỚC 3: Khôi phục
+Bước 3: Khôi phục
 m* = m' × s^(-1) mod n
