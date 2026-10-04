@@ -1,0 +1,11 @@
+input,prefix_correct,time_unsafe_ns,time_safe_ns
+x,0,9966,54228
+s,1,13287,66539
+se,2,29623,80447
+sec,3,31240,56755
+secr,4,37308,52164
+secre,5,35324,50527
+secret,6,72877,72135
+secret1,7,71131,102991
+secret12,8,84253,64828
+secret123,9,124866,120730
