@@ -47,20 +47,7 @@ Cứ **+2 bit** thì thời gian **×4 lần**, tức là:
 | Bộ nhớ | O(1) — không đổi |
 | Năng lượng tiêu thụ | O(√N) |
 
-### Ngoại suy cho RSA thực tế
 
-Từ công thức `time ∝ 2^(bits/2)`, ta ngoại suy:
-
-| Kích thước N | Số bước thử | Thời gian ước tính |
-|--------------|-------------|-------------------|
-| 56 bit | 2.7×10^8 | ~8.5 giây |
-| 64 bit | 4.3×10^9 | ~2 phút |
-| 80 bit | 1.1×10^12 | ~9 ngày |
-| 128 bit | 1.8×10^19 | ~10^12 năm |
-| 256 bit | 3.4×10^38 | ~10^31 năm |
-| **512 bit** | **~10^77** | **vượt tuổi vũ trụ** |
-| **1024 bit** | **~10^154** | **bất khả thi** |
-| **2048 bit** | **~10^308** | **HOÀN TOÀN BẤT KHẢ THI** |
 
 **Kết luận:** Kích thước N tăng **tuyến tính** về số bit, nhưng chi phí
 tấn công tăng **theo cấp số nhân**. Đây chính là nền tảng an toàn của RSA.
