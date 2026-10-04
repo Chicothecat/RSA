@@ -33,7 +33,7 @@ b) Điều kiện:
 3. Không tin input từ bên ngoài.
    Oracle phải kiểm tra ciphertext hợp lệ.
 
-### 4. Phòng chống
+### Phòng chống
 
 | Biện pháp | Mô tả |
 |-----------|-------|
