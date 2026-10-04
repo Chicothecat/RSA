@@ -1,4 +1,4 @@
-**Input bài toán: **
+**Input:**
 RSA bảo mật dựa trên độ phức tạp của bài toán phân tích thừa số nguyên
 - Chiều xuôi: Khởi tạo n = p.q với p và q là hai số nguyên tố
 - Chiều ngược: từ n giải mã ra p và q 
