@@ -15,13 +15,6 @@ chọn ciphertext và gửi cho hệ thống giải mã, rồi phân tích kết
 - Giải mã ciphertext mục tiêu `c*` mà không cần biết `d`
 - Hoặc tìm ra plaintext `m*`
 
-### Hai biến thể
-
-| Loại | Mô tả |
-|------|-------|
-| Lunchtime CCA | Attacker tấn công trước khi có `c*` |
-| Adaptive CCA | Attacker tấn công sau khi có `c*`, chọn ciphertext dựa trên kết quả trước |
-
 ### Quy trình tấn công RSA (RSA-CAA)
 
 **Input:** 
