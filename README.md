@@ -1,5 +1,18 @@
 #  RSA & Cryptographic Attacks Demonstration Suite
 
+Hướng dẫn chạy thử demo:
+
+Clone git về
+___
+git clone https://github.com/Chicothecat/RSA.git
+cd RSA
+___
+
+
+Các branch trong git bao gồm
+
+
+
 Tài liệu và mã nguồn thực hành mô phỏng các phương thức tấn công kinh điển trong hệ mật mã RSA, bao gồm giao diện tương tác trực quan (Tkinter GUI), biểu đồ thống kê (Matplotlib) và phân tích luồng dữ liệu (Attack Pipeline).
 
 ---
