@@ -98,7 +98,7 @@ Trước khi phân tích các kiểu tấn công, ta cần hiểu quy trình v�
          ▼
   [KẾT QUẢ: Đọc được bản rõ gốc m* mà không cần biết khóa d]
 '''
-### 🔹 Module 3: Timing Attack (Tấn công kênh phụ qua thời gian)
+###  Module 3: Timing Attack (Tấn công kênh phụ qua thời gian)
 
 * **Khái niệm & Nguyên lý:**
   * Đây là phương thức tấn công kênh phụ (*Side-Channel Attack*): không tập trung bẻ gãy cấu trúc toán học phức tạp của thuật toán mà khai thác **thời gian phản hồi thực tế của CPU/hệ thống** trong quá trình tính toán.
