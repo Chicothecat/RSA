@@ -1,7 +1,5 @@
 # RSA LAB Python - Bob tạo khóa trước rồi đối thủ tấn công
 
-Chỉ cần Python 3.8 trở lên, không cài thư viện ngoài. Đây là textbook RSA cục bộ với khóa nhỏ để học. Khóa và số đo đều sinh khi chạy, không có kết quả thực nghiệm điền sẵn.
-
 ## Chạy trên Windows
 
 Giải nén ZIP. Mở thư mục RSA_LAB, bấm thanh địa chỉ Explorer, gõ powershell rồi Enter. Chạy:
