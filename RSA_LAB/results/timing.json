@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "recovered_d": 2753,
+  "oracle_queries": 3600,
+  "samples": 1200,
+  "measurement_seconds": 5.270239599980414,
+  "analysis_seconds": 0.3695036999997683,
+  "artificial_leakage": true,
+  "recovered_message": 65,
+  "elapsed_seconds": 5.644920099992305
+}
